@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # History files
 .Rhistory
 .Rapp.history
@@ -47,3 +48,89 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+=======
+# ==========================================
+# 1. R User & Session Files
+# ==========================================
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+.RuserData
+.RData.*
+
+# RStudio Project / Workspace Files
+.Rproj.user/
+*.Rproj.user
+
+# R environment & build files
+.Renviron
+.Rprofile
+
+# ==========================================
+# 2. Package & Build Artifacts
+# ==========================================
+/*.tar.gz
+/*.tgz
+/*.Rcheck/
+.Rcheck/
+
+# C / C++ compiled code binaries
+*.o
+*.so
+*.dll
+*.dylib
+
+# ==========================================
+# 3. Large Data & Temporary Download Files
+# ==========================================
+# Ignore raw data downloads and large generated output files
+data/*.csv
+data/*.tsv
+data/*.txt
+data/*.gz
+data/*.rds
+
+# Ignore local output subdirectories (Figures & Results)
+figures/*
+results/*
+data/
+!figures/.gitkeep
+!results/.gitkeep
+
+# GEO query temporary cache files
+GSE*/
+GSM*/
+*.soft.gz
+
+# ==========================================
+# 4. Shiny Desktop & Packaging Artifacts
+# ==========================================
+# RInno / Inno Setup build artifacts
+/InnoSetup/
+/*.iss
+/*.exe
+
+# DesktopDeployR build artifacts
+/electron/dist/
+/electron/node_modules/
+/R-portable/
+
+# ==========================================
+# 5. OS Generated Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+>>>>>>> 082b9ba (uploded version 0.0.1)
