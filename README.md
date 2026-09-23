@@ -4,14 +4,9 @@
 
 The goal of this project is to provide a reproducible, end-to-end path from public SRA accessions to publication-ready differential expression results and visualizations, removing the manual overhead of stitching together download, alignment/quantification, and statistical testing steps.
 
-## Demo
-
-_(Add a link here to a live demo, example notebook, or sample output report, if available.)_
-
 ## Table of Contents
 
 - [sra2dge](#sra2dge)
-  - [Demo](#demo)
   - [Table of Contents](#table-of-contents)
   - [Business Understanding](#business-understanding)
   - [Data Understanding](#data-understanding)
@@ -20,6 +15,8 @@ _(Add a link here to a live demo, example notebook, or sample output report, if 
   - [Setup](#setup)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
+    - [Option 1: Direct Launch](#option-1-direct-launch)
+    - [Option 2: From Inside RStudio](#option-2-from-inside-rstudio)
     - [Usage](#usage)
   - [Approach](#approach)
   - [Status](#status)
@@ -83,11 +80,19 @@ _(Update this list to match the exact tools and versions your pipeline actually 
 # Clone the repository
 git clone https://github.com/t-fahim/sra2dge.git
 cd sra2dge
-
-# Create and activate the environment
-conda env create -f environment.yml
-conda activate sra2dge
 ```
+
+To open and run this project in RStudio using the `.Rproj` file:
+
+### Option 1: Direct Launch
+
+Double-click the `.Rproj` file in your file explorer (File Explorer on Windows or Finder on macOS). This will automatically launch RStudio with the working directory set to the project root.
+
+### Option 2: From Inside RStudio
+
+1. Open **RStudio**.
+2. Go to the top menu and select **File** > **Open Project...** (or click the project dropdown menu in the top-right corner of RStudio).
+3. Navigate to the project directory, select the `.Rproj` file, and click **Open**.
 
 ### Usage
 
