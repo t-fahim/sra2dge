@@ -70,7 +70,7 @@ _(Update this list to match the exact tools and versions your pipeline actually 
 
 ### Prerequisites
 
-- R (version X.X or higher) with Bioconductor installed
+- R (version 4.6.1 or higher) with Bioconductor installed
 - SRA Toolkit
 - RStudio
 
@@ -86,12 +86,12 @@ To open and run this project in RStudio using the `.Rproj` file:
 
 ### Option 1: Direct Launch
 
-Double-click the `.Rproj` file in your file explorer (File Explorer on Windows or Finder on macOS). This will automatically launch RStudio with the working directory set to the project root.
+Double-click the `.Rproj` file in your file explorer. This will automatically launch RStudio with the working directory set to the project root.
 
 ### Option 2: From Inside RStudio
 
 1. Open **RStudio**.
-2. Go to the top menu and select **File** > **Open Project...** (or click the project dropdown menu in the top-right corner of RStudio).
+2. Go to the top menu and select **File** > **Open Project...**
 3. Navigate to the project directory, select the `.Rproj` file, and click **Open**.
 
 ### Usage
