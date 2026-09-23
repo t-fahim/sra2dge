@@ -75,7 +75,7 @@ _(Update this list to match the exact tools and versions your pipeline actually 
 
 - R (version X.X or higher) with Bioconductor installed
 - SRA Toolkit
-- Conda / Mamba (recommended for environment management)
+- RStudio
 
 ### Installation
 
