@@ -17,7 +17,7 @@ The goal of this project is to provide a reproducible, end-to-end path from publ
     - [Installation](#installation)
     - [Option 1: Direct Launch](#option-1-direct-launch)
     - [Option 2: From Inside RStudio](#option-2-from-inside-rstudio)
-    - [Usage](#usage)
+    - [Run the Application](#run-the-application)
   - [Approach](#approach)
   - [Status](#status)
   - [Credits](#credits)
@@ -94,22 +94,16 @@ Double-click the `.Rproj` file in your file explorer. This will automatically la
 2. Go to the top menu and select **File** > **Open Project...**
 3. Navigate to the project directory, select the `.Rproj` file, and click **Open**.
 
-### Usage
+### Run the Application
 
-```bash
-# Example: run the pipeline on a given SRA accession
-./sra2dge.sh --accession SRPXXXXXX --outdir results/
-```
+Choose one of these methods to launch your app:
 
-```r
-# Example: run the DESeq2 step directly in R
-source("scripts/run_deseq2.R")
-run_deseq2(counts_file = "results/counts.tsv",
-           metadata_file = "results/metadata.csv",
-           design = ~ condition)
-```
-
-_(Replace the above with your project's actual entry point, script names, and required arguments.)_
+- **Method 1 (UI Button):** Open your `app.R` (or `ui.R`/`server.R`) file in RStudio. Click the green **Run App** button in the top-right corner of the script editor window.
+- **Method 2 (Keyboard Shortcut):** Press `Ctrl + Shift + Enter` (Windows/Linux) or `Cmd + Shift + Enter` (macOS).
+- **Method 3 (Console Command):**
+  ```R
+  shiny::runApp("path/to/sra2dge")
+  ```
 
 ## Approach
 
