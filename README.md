@@ -81,7 +81,7 @@ _(Update this list to match the exact tools and versions your pipeline actually 
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/sra2dge.git
+git clone https://github.com/t-fahim/sra2dge.git
 cd sra2dge
 
 # Create and activate the environment
